@@ -12,3 +12,7 @@ resource "aws_instance" "ec2_instance" {
   vpc_security_group_ids = ["sg-0939199220c5735aa"]
    associate_public_ip_address = true
   tags = {
+  
+  Name = "riyaz ec2"
+  }
+}
